@@ -166,7 +166,9 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			border-bottom-color: purple;
+			border-bottom: 1px solid;
+			
 		}
 
 	strong, b {
@@ -217,6 +219,13 @@ input, select, textarea {
 	h3 {
 		font-size: 1.25em;
 	}
+		.h3 li a{
+			border-bottom: 1px dotted;
+		}
+
+		.h3 li a:hover {
+			border-bottom: 1px solid;
+		}
 
 	h4 {
 		font-size: 1.1em;
@@ -303,10 +312,6 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #ffffff;
-	}
-
-	a:hover {
 		color: #ffffff;
 	}
 
@@ -1089,7 +1094,7 @@ input, select, textarea {
 					justify-content: center;
 				}
 
-				.row.aln-right {
+				.rowbln-right {
 					justify-content: flex-end;
 				}
 
@@ -2828,6 +2833,14 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
+			.features li a{
+				border-bottom: 1px dotted;
+			}
+
+			.features li a:hover {
+				border-bottom: 1px solid;
+			}
+
 		@media screen and (max-width: 980px) {
 
 			.features li {
@@ -2882,6 +2895,14 @@ input, select, textarea {
 			color: #ffffff;
 			text-align: center;
 		}
+
+			.statistics li a {
+				border-bottom: 1px dotted;
+			}
+
+			.statistics li a:hover {
+				border-bottom: 1px solid;
+			}
 
 			.statistics li.style1 {
 				background-color: #efa8b0;
@@ -3337,13 +3358,10 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #636363;
 		border-radius: 0.25em;
+		text-align: center;
 	}
 
 		#main input, #main select, #main textarea {
-			color: #636363;
-		}
-
-		#main a:hover {
 			color: #636363;
 		}
 
